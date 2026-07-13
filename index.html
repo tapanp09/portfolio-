@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tapan Prajapati | Full Stack Developer | Python Developer Portfolio">
+    <meta name="keywords" content="Portfolio, HTML, CSS, JavaScript, Python, AI, ML">
+    <meta name="author" content="Tapan Prajapati">
+
+    <title>Tapan Prajapati | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+<div id="loader">
+    <h1>Tapan Prajapati</h1>
+</div>
+
+<!-- Navbar -->
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            TP
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#education">Education</a></li>
+
+            <li><a href="#skills-section">Skills</a></li>
+
+            <li><a href="#projects">Projects</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+            <li><a href="#innovation-projects">ideas</a></li>
+
+        </ul>
+
+    </nav>
+</header>
+
+<!-- Hero -->
+<section id="home">
+
+    <div class="hero-left">
+
+        <h1>Hi, I'm Tapan Prajapati</h1>
+
+        <h2>Aspiring Full Stack Developer</h2>
+
+        <p>
+            <b>Passionate about Web Development,
+            Python Programming and Modern Technology.</b>
+        </p>
+
+        <div class="buttons">
+
+            <a href ="Tapan_Prajapati_Resume_A4_One_Page.pdf">Download Resume</a>
+
+            <a href="#projects">View Projects</a>
+
+        </div>
+
+        <div class="social">
+
+            <a href="https://github.com/tapanp09">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/tapan-prajapati-43751b328">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://replit.com/@tapan09">
+                <i class="fas fa-code"></i>
+            </a>
+
+            <a href="mailto:prajapatitapan34@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-right">
+
+        <img src="{{url_for('static',filename = 'tapan.png.jpeg')}}" alt="tapan missing  are....">
+
+    </div>
+
+</section>
+
+<!-- About -->
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+
+<b style="font-size:x-large ;">I am Tapan Prajapati from Gujarat,
+currently pursuing M.Sc IT.
+
+I love building websites,
+Python projects,
+and continuously learning modern technologies.
+
+I have basic knowledge of AI,
+Machine Learning,
+and Automation.</b>
+
+</p>
+
+</section>
+
+<!-- Education -->
+
+<section id="education">
+
+<h2>Education</h2>
+
+<div class="card">
+
+<h3 style="font-size: x-large;">M.Sc Information Technology</h3>
+
+<p>Shri Alpesh Patel Post Graduate Institute, Anand</p>
+
+</div>
+
+<br>
+
+<div class="card">
+
+<h3 style="font-size: x-large;">Bachelor of Computer Applications</h3>
+
+<p>M.B. Patel Science College, Anand</p>
+
+</div>
+<br>
+<div class="card">
+    <h3 style="font-size: x-large;">12th Commarce</h3>
+
+    <p>St.mary high School Nadiad</p>
+</div>
+</section>
+
+<!-- Skills -->
+
+<!-- <section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill">HTML</div>
+
+<div class="skill">CSS</div>
+
+<div class="skill">JavaScript</div>
+
+<div class="skill">Python</div>
+
+<div class="skill">Git</div>
+
+<div class="skill">GitHub</div>
+
+<div class="skill">ChatGPT</div>
+
+<div class="skill">Claude AI</div>
+
+<div class="skill">Gemini</div>
+
+<div class="skill">Google AI Studio</div>
+
+<div class="skill">NotebookLM</div>
+
+<div class="skill">TensorFlow</div>
+
+<div class="skill">n8n (Basic)</div>
+
+</div>
+
+</section> -->
+<section id="skills-section">
+    <h2>My Skills</h2>
+
+    <div class="skills-grid">
+
+        <!-- HTML -->
+        <div class="skill-card">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML</span>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS</span>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+        </div>
+
+        <!-- Python -->
+        <div class="skill-card">
+            <i class="devicon-python-plain colored"></i>
+            <span>Python</span>
+        </div>
+
+        <!-- Git -->
+        <div class="skill-card">
+            <i class="devicon-git-plain colored"></i>
+            <span>Git</span>
+        </div>
+
+        <!-- GitHub -->
+        <div class="skill-card">
+            <i class="devicon-github-original"></i>
+            <span>GitHub</span>
+        </div>
+
+        <!-- Claude AI -->
+        <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/anthropic" alt="Claude AI">
+            <span>Claude AI</span>
+        </div>
+
+        <!-- Gemini -->
+        <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/googlegemini" alt="Gemini">
+            <span>Gemini</span>
+        </div>
+
+        <!-- Google AI Studio -->
+        <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/google" alt="Google AI Studio">
+            <span>Google AI Studio</span>
+        </div>
+
+        <!-- NotebookLM -->
+        <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/googlenotebooklm" alt="NotebookLM">
+            <span>NotebookLM</span>
+        </div>
+
+        <!-- TensorFlow -->
+        <div class="skill-card">
+            <i class="devicon-tensorflow-original colored"></i>
+            <span>TensorFlow</span>
+        </div>
+
+        <!-- n8n -->
+        <div class="skill-card">
+            <img src="https://cdn.simpleicons.org/n8n" alt="n8n">
+            <span>n8n (Basic)</span>
+        </div>
+
+        <!-- ChatGPT -->
+        <div class="skill-card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" alt="ChatGPT">
+            <span>ChatGPT</span>
+        </div>
+
+    </div>
+</section>
+<!-- Projects -->
+<section id="projects">
+
+    <div class="section-title">
+        <span>💻 Programming Projects</span>
+        <h2>Development Projects</h2>
+
+        <p>
+            These projects demonstrate my programming fundamentals,
+            object-oriented programming, responsive web development,
+            problem-solving and software engineering skills.
+        </p>
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card1">
+
+            <div class="project-icon">🏦</div>
+
+            <h3>Bank Management System</h3>
+
+            <p>
+                A Python application for managing bank accounts,
+                deposits, withdrawals and customer transactions.
+            </p>
+
+            <ul>
+                <li>✔ Account Management</li>
+                <li>✔ Deposit & Withdraw</li>
+                <li>✔ Transaction History</li>
+            </ul>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>OOP</span>
+            </div>
+
+            <a href="BANK.py" class="project-btn">View Project</a>
+
+        </div>
+
+        <!-- Project 2 -->
+
+        <div class="project-card1">
+
+            <div class="project-icon">🎓</div>
+
+            <h3>Student Management System</h3>
+
+            <p>
+                Manage student records, attendance, marks and reports
+                using Python.
+            </p>
+
+            <ul>
+                <li>✔ Student Records</li>
+                <li>✔ Attendance</li>
+                <li>✔ Result Management</li>
+            </ul>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>CRUD</span>
+            </div>
+
+            <a href="student.py" class="project-btn">View Project</a>
+
+        </div>
+
+        <!-- Project 3 -->
+
+        <div class="project-card1">
+
+            <div class="project-icon">☕</div>
+
+            <h3>Coffee Management System</h3>
+
+            <p>
+                Billing and order management software for coffee shops.
+            </p>
+
+            <ul>
+                <li>✔ Billing</li>
+                <li>✔ Order Tracking</li>
+                <li>✔ Sales Report</li>
+            </ul>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>Management</span>
+            </div>
+
+            <a href="coffe.py" class="project-btn">View Project</a>
+
+        </div>
+
+        <!-- Project 4 -->
+
+        <div class="project-card1">
+
+            <div class="project-icon">❌⭕</div>
+
+            <h3>Tic Tac Toe</h3>
+
+            <p>
+                Interactive web game with winning logic and responsive UI.
+            </p>
+
+            <ul>
+                <li>✔ Responsive</li>
+                <li>✔ Game Logic</li>
+                <li>✔ JavaScript</li>
+            </ul>
+
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="#" class="project-btn">View Project</a>
+
+        </div>
+
+        <!-- Project 5 -->
+
+        <div class="project-card1">
+
+            <div class="project-icon">✊✋✌️</div>
+
+            <h3>Rock Paper Scissors</h3>
+
+            <p>
+                Browser game with computer AI and live score tracking.
+            </p>
+
+            <ul>
+                <li>✔ AI Opponent</li>
+                <li>✔ Score Board</li>
+                <li>✔ Animations</li>
+            </ul>
+
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="tic-tac-toe.html" class="project-btn">View Project</a>
+
+        </div>
+
+        <!-- Project 6 -->
+
+        <div class="project-card1">
+
+            <div class="project-icon">$</div>
+
+            <h3>Currency Converter</h3>
+
+            <p>
+                Modern responsive Currency Converte with beautiful UI
+                and smooth animations.
+            </p>
+
+            <ul>
+                <li>✔ Responsive</li>
+                <li>✔ Landing Page</li>
+                <li>✔ Modern UI</li>
+            </ul>
+
+            <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <a href="paisa.html.html" class="project-btn">View Project</a>
+
+        </div>
+
+    </div>
+
+       
+
+</section>
+
+
+<!-- NEW PROJECT INOVATION -->
+ <section class="innovation-projects" id="innovation-projects">
+
+    <div class="section-title">
+        <span>🚀 Innovation Projects</span>
+        <h2>AI Powered Problem Solving Projects</h2>
+        <p>
+            These projects showcase my creativity, problem-solving skills,
+            real-world thinking, and modern web development using HTML, CSS,
+            JavaScript, Python and AI.
+        </p>
+    </div>
+
+    <div class="project-grid">
+
+        <!-- Drive Bite -->
+        <div class="project-card">
+            <div class="project-icon">🍔</div>
+            <h3>Drive Bite</h3>
+            <p>
+                AI-powered smart food ordering platform designed to simplify
+                restaurant ordering with an intuitive digital experience.
+            </p>
+
+            <div class="tags">
+                <span>AI</span>
+                <span>FoodTech</span>
+                <span>UI</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Drive-Bite"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+        </div>
+
+        <!-- Smart Scan Checkout -->
+
+        <div class="project-card">
+            <div class="project-icon">🛒</div>
+            <h3>Smart Scan Checkout</h3>
+
+            <p>
+                Smart shopping solution that scans products while customers
+                shop, reducing billing queues and improving checkout speed.
+            </p>
+
+            <div class="tags">
+                <span>Retail</span>
+                <span>Innovation</span>
+                <span>AI</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Smart-Scan-Checkout"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+        <!-- Smart Meter -->
+
+        <div class="project-card">
+            <div class="project-icon">⚡</div>
+
+            <h3>Smart Meter Billing</h3>
+
+            <p>
+                Digital electricity billing system that automates meter
+                calculations, bill generation and payment management.
+            </p>
+
+            <div class="tags">
+                <span>Python</span>
+                <span>Utility</span>
+                <span>Automation</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Smart-Meter-Billing"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+        <!-- Power Outage -->
+
+        <div class="project-card">
+
+            <div class="project-icon">🔋</div>
+
+            <h3>Power Outage Alert</h3>
+
+            <p>
+                Smart alert system that instantly notifies users about power
+                failures and restoration updates for better emergency response.
+            </p>
+
+            <div class="tags">
+                <span>Alert</span>
+                <span>IoT</span>
+                <span>Utility</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Power-Outage-Alert"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+        <!-- Expense Hub -->
+
+        <div class="project-card">
+
+            <div class="project-icon">💰</div>
+
+            <h3>Expense Hub</h3>
+
+            <p>
+                Personal finance tracker that manages income, expenses,
+                budgeting and spending analysis in one dashboard.
+            </p>
+
+            <div class="tags">
+                <span>Finance</span>
+                <span>Dashboard</span>
+                <span>Python</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Expense-Hub"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+        <!-- Health Connect -->
+
+        <div class="project-card">
+
+            <div class="project-icon">🏥</div>
+
+            <h3>Health Connect</h3>
+
+            <p>
+                Healthcare management platform connecting patients with doctors,
+                appointments and digital health records.
+            </p>
+
+            <div class="tags">
+                <span>Healthcare</span>
+                <span>Medical</span>
+                <span>AI</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Health-Connect"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+        <!-- Student Meal Planner -->
+
+        <div class="project-card">
+
+            <div class="project-icon">🍱</div>
+
+            <h3>Student Meal Planner</h3>
+
+            <p>
+                Smart meal planning application helping students manage healthy,
+                affordable and balanced daily food schedules.
+            </p>
+
+            <div class="tags">
+                <span>Student</span>
+                <span>Health</span>
+                <span>Planner</span>
+            </div>
+
+            <a href="https://student-meal-planner--tapan09.replit.app"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+        <!-- Account Link -->
+
+        <div class="project-card">
+
+            <div class="project-icon">🔗</div>
+
+            <h3>Account Link</h3>
+
+            <p>
+                Secure account linking platform designed to manage multiple
+                digital accounts through one simplified interface.
+            </p>
+
+            <div class="tags">
+                <span>Security</span>
+                <span>Authentication</span>
+                <span>Web App</span>
+            </div>
+
+            <a href="https://replit.com/@tapan09/Account-Link"
+               target="_blank"
+               class="project-btn">
+               View Project →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Contact -->
+
+<section id="contact"></section>
+
+    <div class="contact-heading">
+
+        <span>📩 Get In Touch</span>
+
+        <h2>Let's Build Something Amazing Together</h2>
+
+        <p>
+            Have an innovative idea, freelance project, internship opportunity,
+            or full-time role? I'm always excited to collaborate, solve
+            real-world problems, and create impactful digital solutions.
+            Let's connect!
+        </p>
+
+    </div>
+
+    <div class="contact-container">
+
+        <!-- Left Side -->
+
+        <div class="contact-info">
+
+            <h3>Contact Information</h3>
+
+            <div class="info-box">
+                📧
+                <span>prajapatitapan34@gmail.com</span>
+            </div>
+
+            <div class="info-box">
+                📱
+                <span>+91 78619 73084</span>
+            </div>
+
+            <div class="info-box">
+                📍
+                <span>Gujarat, India</span>
+            </div>
+
+            <div class="info-box">
+                💼
+                <span>Available for Internship, Freelance & Full-Time Opportunities</span>
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <form class="contact-form">
+
+            <input
+                type="text"
+                placeholder="Your Full Name"
+                required>
+
+            <input
+                type="tel"
+                placeholder="Mobile Number"
+                required>
+
+            <input
+                type="email"
+                placeholder="Email Address"
+                required>
+
+            <input
+                type="text"
+                placeholder="Company / Organization">
+
+            <textarea
+                rows="6"
+                placeholder="Tell me about your project or how we can work together..."
+                required></textarea>
+
+            <button type="submit">
+                🚀 Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h3>Tapan Prajapati</h3>
+
+    <p>
+        Passionate Full Stack Developer • Python Developer • AI Enthusiast
+    </p>
+
+    <p>
+        Thank you for visiting my portfolio.
+        Let's create innovative solutions together.
+    </p>
+
+    <p>
+        © 2026 Tapan Prajapati. All Rights Reserved.
+    </p>
+
+</footer>
+
+<div class="footer-icons">
+
+<a href="https://github.com/tapanp09">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/tapan-prajapati-43751b328">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://replit.com/@tapan09">
+<i class="fas fa-code"></i>
+</a>
+
+<a href="mailto:prajapatitapan34@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+
+</div>
+
+</footer>
+
+<script src="{{url_for('static',filename='script.js')}}"></script>
+
+</body>
+</html>
